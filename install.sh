@@ -47,9 +47,9 @@ git clone https://github.com/zanyarjamal/xerxes
 cd /m4qlo/xerxes
 gcc xerxes.c -o xerxes
 cd /m4qlo
+cd /usr/bin
 wget https://raw.githubusercontent.com/verluchie/dost-attack/master/dostdeb -O dost
 chmod 777 dost
-cp dost /usr/bin
 fi
 
 if [ $eue = 2 ] || [ $eue = 02 ]
