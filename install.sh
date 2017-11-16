@@ -1,4 +1,3 @@
-#DDOS TOOLS FOR TERMUX
 #made by v3rluchie
 #15-11-2017
 
@@ -49,8 +48,8 @@ cd /m4qlo/xerxes
 gcc xerxes.c -o xerxes
 cd /m4qlo
 wget https://raw.githubusercontent.com/verluchie/dost-attack/master/dostdeb -O dost
-chmod 777 dostdeb
-cp dostdeb /usr/bin
+chmod 777 dost
+cp dost /usr/bin
 fi
 
 if [ $eue = 2 ] || [ $eue = 02 ]
