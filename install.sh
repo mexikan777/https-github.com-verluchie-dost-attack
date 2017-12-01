@@ -47,8 +47,7 @@ git clone https://github.com/zanyarjamal/xerxes
 cd /m4qlo/xerxes
 gcc xerxes.c -o xerxes
 cd /m4qlo
-cd /usr/bin
-wget https://raw.githubusercontent.com/verluchie/dost-attack/master/dostdeb -O dost
+wget https://raw.githubusercontent.com/verluchie/dost-attack/master/dostdeb -O /usr/bin/dost
 chmod 777 dost
 fi
 
@@ -70,7 +69,7 @@ git clone https://github.com/zanyarjamal/xerxes
 cd ~/m4qlo/xerxes
 gcc xerxes.c -o xerxes
 cd ~/
-cp ~/dost/dost /data/data/com.termux/files/usr/bin/
+cp ~/dost-attack/dost /data/data/com.termux/files/usr/bin/
 fi
 
 if [ $eue = 3 ] || [ $eue = 03 ]
